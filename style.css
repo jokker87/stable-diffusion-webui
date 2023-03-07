@@ -815,6 +815,11 @@ footer {
     margin: 0 0.15em;
 }
 
+.extra-network-container{
+	display: flex;
+	flex-direction: column;
+}
+
 #txt2img_extra_networks .search, #img2img_extra_networks .search{
     display: inline-block;
     max-width: 16em;

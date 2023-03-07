@@ -101,11 +101,13 @@ class ExtraNetworksPage:
         self_name_id = self.name.replace(" ", "_")
 
         res = f"""
+<div id='{tabname}_{self_name_id}_container' class='extra-network-container'>
 <div id='{tabname}_{self_name_id}_subdirs' class='extra-network-subdirs extra-network-subdirs-{view}'>
 {subdirs_html}
 </div>
 <div id='{tabname}_{self_name_id}_cards' class='extra-network-{view}'>
 {items_html}
+</div>
 </div>
 """
 
